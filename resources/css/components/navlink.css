@@ -1,0 +1,22 @@
+
+.navlink {
+    cursor: pointer;
+    padding: .2rem 1.25rem;
+    opacity: .8;
+    font-size: 95%;
+}
+
+.navlink .underline {
+    background: var(--black);
+    border-radius: var(--radius);
+    height: 1px;
+    width: 0;
+}
+
+.navlink:hover {
+    opacity: 1;
+}
+
+.navlink:hover .underline {
+    width: 50%;
+}

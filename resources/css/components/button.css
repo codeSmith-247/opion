@@ -12,6 +12,7 @@ button {
     letter-spacing: .4px;
 
     border: 1px solid var(--bg);
+    border-radius: var(--radius);
     outline: none;
 
     padding: .5rem 2rem;

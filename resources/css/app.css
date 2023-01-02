@@ -16,10 +16,107 @@ body {
 
     --fade-shadow: #22222214;
 
+    --radius: 2px;
+    --side-padding: 1.5rem 2rem;
+
     font-family: 'Poppins', sans-serif;
     
 }
 
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     transition: .5s;
+}
+
+.full-h, .full-hw, .obj-fit {
+    height: 100%;
+}
+
+.full-w, .full-hw, .obj-fit {
+    width: 100%;
+}
+
+.obj-fit {
+    object-fit: cover;
+}
+
+.size {
+    height: var(--size);
+    width: var(--size);
+}
+
+.flex, .flex-row, .flex-col, .flex-center, .flex-col-center {
+    display: flex;
+}
+
+.flex-row, .flex-center {
+    align-items: center;
+}
+
+.flex-center, .flex-col-center {
+    justify-content: center;
+}
+
+.flex-col, .flex-col-center {
+    flex-direction: column;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+.left-center, .p-center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top {
+    top: 0;
+}
+
+.btm {
+    bottom: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.top-center, .p-center {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.p-center {
+    transform: translate(-50%, -50%);
+}
+
+.p-fix {
+    position: fixed
+}
+
+.p-abs {
+    position: absolute;
+}
+
+.p-rel {
+    position: relative;
+}
+
+.p-sticky {
+    position: sticky;
+}
+
+.max-width, .max-content {
+    width: max-content;
+}
+
+.max-height, .max-content {
+    height: max-content;
 }
