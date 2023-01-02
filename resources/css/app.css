@@ -15,12 +15,14 @@ body {
     --black: #222222;
 
     --fade-shadow: #22222214;
+    --shadow: #22222245;
+    --overlay: linear-gradient(90deg, var(--white), #ffffff54);
 
     --radius: 2px;
     --side-padding: 1.5rem 2rem;
 
     font-family: 'Poppins', sans-serif;
-    
+    color: var(--black);
 }
 
 * {
@@ -28,6 +30,14 @@ body {
     margin: 0;
     box-sizing: border-box;
     transition: .5s;
+}
+
+.full-vh, .full-vhw {
+    height: 100vh;
+}
+
+.full-vw, .full-vhw {
+    width: 100vw;
 }
 
 .full-h, .full-hw, .obj-fit {
@@ -119,4 +129,12 @@ body {
 
 .max-height, .max-content {
     height: max-content;
+}
+
+.overlay-bg {
+    background: var(--url);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
 }

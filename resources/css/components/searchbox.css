@@ -1,0 +1,22 @@
+
+.search-box {
+    margin-top: 4rem;
+}
+
+.search-box .box {
+    background: var(--white);
+    box-shadow: -5px -5px 5px var(--fade-shadow);
+    border-radius: var(--radius);
+    height: 115px;
+    /* padding: var(--side-padding); */
+    padding: 1rem 2rem;
+}
+
+.search-box h3 {
+    padding-bottom: 1rem;
+    line-height: 1;
+}
+
+.search-box .input {
+    margin-right: 1rem;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavBar} from './';
+import {NavBar, Header} from './';
 
 import '../../css/components/button.css';
 
@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
         <NavBar />
-
+        <Header />
     </div>
   )
 }

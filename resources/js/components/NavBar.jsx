@@ -5,7 +5,7 @@ import {Logo, NavLink, Button} from './';
 
 const NavBar = () => {
   return (
-    <div className='navbar flex-row flex-between'>
+    <div className='navbar flex-row flex-between p-fix top left full-w'>
         <div className = 'left flex-row'>
             <Logo />
             <NavLink name='Home'/>

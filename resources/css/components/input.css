@@ -1,0 +1,13 @@
+
+input {
+    border: 1px solid var(--shadow);
+    border-radius: var(--radius);
+    outline: none;
+    padding: .65rem;
+    font-family: inherit;
+    /* font-size: inherit; */
+}
+
+.input i {
+    padding: .65rem;
+}

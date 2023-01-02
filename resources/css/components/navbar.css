@@ -7,8 +7,10 @@
 }
 
 .navbar {
+    /* background: var(--overlay); */
     padding: var(--side-padding);
     padding-left: .5rem;
+    /* color: var(--white); */
 }
 
 .navbar button {
