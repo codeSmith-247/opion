@@ -1,0 +1,43 @@
+
+button {
+    --bg: var(--black);
+    --color: var(--white);
+
+    background: var(--bg);
+    color: var(--color);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 100%;
+
+    letter-spacing: .4px;
+
+    border: 1px solid var(--bg);
+    outline: none;
+
+    padding: .5rem 2rem;
+}
+
+button:hover {
+    background: var(--cool);
+    color: var(--white);
+    border: 1px solid var(--cool);
+    box-shadow: 5px 5px 5px var(--fade-shadow);
+}
+
+button.inverse {
+    background: transparent;
+    color: var(--black);
+}
+
+button.inverse:hover {
+    background: var(--bg);
+    color: var(--color);
+    border: 1px solid var(--bg);
+}
+
+button:active {
+    background: var(--primary);
+    color: var(--white);
+    border: 1px solid var(--primary);
+
+}

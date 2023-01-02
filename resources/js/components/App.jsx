@@ -1,8 +1,15 @@
 import React from 'react'
+import {Button} from './';
+
+import '../../css/components/button.css';
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+        <Button />
+        <Button type={'inverse'} />
+
+    </div>
   )
 }
 
