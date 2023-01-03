@@ -8,6 +8,7 @@ button {
     cursor: pointer;
     font-family: inherit;
     font-size: 100%;
+    white-space: nowrap;
 
     letter-spacing: .4px;
 

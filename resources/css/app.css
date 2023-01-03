@@ -19,7 +19,7 @@ body {
     --overlay: linear-gradient(90deg, var(--white), #ffffff54);
 
     --radius: 2px;
-    --side-padding: 1.5rem 2rem;
+    --side-padding: 1.5rem 4rem;
 
     font-family: 'Poppins', sans-serif;
     color: var(--black);

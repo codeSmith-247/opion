@@ -20,3 +20,42 @@
 .search-box .input {
     margin-right: 1rem;
 }
+
+@media only screen and (max-width: 1145px) {
+    .search-box {
+        width: 100%;
+    }
+
+    .search-box .input {
+        --width: 50px;
+        width: var(--width);
+        transition: .1s;
+    }
+
+    .search-box .input input {
+        width: 0;
+        padding: 0;
+        height: 40px;
+    }
+
+    .search-box .input.active {
+        width: calc(100% - (var(--width) * 2));
+        color: var(--black);
+    }
+
+    .search-box .input.active input {
+        width: 100%;
+        padding: .65rem;
+    }
+
+    .search-box .input .icon:hover, .input.active .icon {
+        background: var(--secondary);
+        color: white;
+    }
+
+    .search-box button span {
+        display: none;
+    }
+
+    
+}

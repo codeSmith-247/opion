@@ -1,13 +1,18 @@
 
-input {
+.input {
     border: 1px solid var(--shadow);
     border-radius: var(--radius);
+}
+
+input {
+    border: none;
     outline: none;
     padding: .65rem;
     font-family: inherit;
     /* font-size: inherit; */
 }
 
-.input i {
-    padding: .65rem;
+.input .icon {
+    --size: 40px;
+    cursor: pointer;
 }
