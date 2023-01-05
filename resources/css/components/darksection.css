@@ -1,8 +1,0 @@
-.darksection {
-    background: var(--black);
-    color: var(--white);
-
-    min-height: 100vh;
-    height: max-content;
-    margin-top: 4rem;
-}

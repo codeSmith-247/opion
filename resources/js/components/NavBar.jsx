@@ -37,7 +37,7 @@ const NavBar = () => {
         </div>
         <div className = 'right flex-row desktop'>
             <NavLink name='Log In' type='inverse'/>
-            <Button name='Sign In' />
+            <Button name='Sign Up' />
         </div>
         <div className = 'menu-btn flex-center mobile size' onClick = {() => { document.querySelector('.menu-box').classList.add('active') } }>
           <i className = 'bi bi-list'></i>

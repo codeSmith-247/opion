@@ -1,0 +1,98 @@
+.section1 {
+    margin-top: 1rem;
+}
+
+.section1 .left {
+    width: 40%;
+}
+
+.image-box {
+    width: 500px;
+    height: 400px;
+    box-shadow: -20px -20px 0 var(--fade-shadow);
+}
+
+.section2 .image-box {
+    box-shadow: 20px -20px 0 var(--fade-shadow);
+}
+
+section.section1 .right {
+    background: var(--white);
+    padding: 2rem;
+    width: 650px;
+}
+
+.section1 h4 {
+    font-size: 250%;
+    text-transform: capitalize;
+}
+
+.section1 p {
+    line-height: 2;
+    font-size: 90%;
+    padding: .5rem 0;
+}
+
+.section1 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: .65rem 1rem;
+}
+
+.section1 ul li {
+    padding: .5rem .25rem;
+    white-space: nowrap;
+
+}
+
+.section1 button {
+    margin-top: .5rem;
+}
+
+@media only screen and (max-width: 1105px) {
+    .section1 li {
+        font-size: 80%;
+    }
+
+    .section1 p {
+        font-size: 85%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .section1 {
+        flex-direction: column;
+    }
+
+    .section1 .left {
+        position: absolute;
+
+    }
+
+    .section1 .left, .section1 .image-box {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    section.section1 .right {
+        width: 95vw;
+        transform: scale(.95);
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .section1 ul {
+        grid-template-columns: 1fr;
+    }
+
+    .section1 button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .section1 button .icon {
+        display: none;
+    }
+}

@@ -3,11 +3,11 @@ import '../../css/components/card.css';
 import { Button } from './';
 
 
-const Card = () => {
+const Card = ({name, location, duration, amount, image}) => {
   return (
     <div className = 'card ov-hidden'>
         <div className = 'image'>
-            <img src = '/images/image.jpeg' className =  'obj-fit' />
+            <img src = {`/images/${image}`} className =  'obj-fit' />
         </div>
 
         <div className = 'info'>
@@ -16,7 +16,7 @@ const Card = () => {
                     <i className = 'bi bi-square-fill'></i>
                 </div>
 
-                <div className =  'item-text'>Jakaranta Hostels</div>
+                <div className =  'item-text'>{name}</div>
             </div>
 
             <div className =  'flex-row flex-between small'>
@@ -25,7 +25,7 @@ const Card = () => {
                         <i className = 'bi bi-geo-alt-fill'></i>
                     </div>
 
-                    <div className =  'item-text'>Ayeduase New Site </div>
+                    <div className =  'item-text'>{location}</div>
                 </div>
 
                 <div className =  'info-item flex-row'>
@@ -33,7 +33,7 @@ const Card = () => {
                         <i className = 'bi bi-watch'></i>
                     </div>
 
-                    <div className =  'item-text'>5 min</div>
+                    <div className =  'item-text'>{duration}</div>
                 </div>
             </div>
 
@@ -41,7 +41,7 @@ const Card = () => {
                 <Button name = 'Book Now' />
                 <div className =  'price flex-center'>
                     <span>Ghc</span>
-                    <span>6400</span>
+                    <span>{amount}</span>
                 </div>
             </div>
         </div>
@@ -49,4 +49,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default Card;

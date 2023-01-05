@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavBar, Header, MobileMenu, SearchBox, LineHeading, LinkHeading, CardGrid, DarkSection} from './';
+import {NavBar, Header, MobileMenu, SearchBox, LineHeading, LinkHeading, CardGrid, Section1, Section2} from './';
 
 const App = () => {
   return (
@@ -11,11 +11,12 @@ const App = () => {
 
         <section>
           <LineHeading heading = 'Popular' />
-          <LinkHeading heading = 'Popular' link_text = 'Explore All'/>
+          <LinkHeading heading = 'Popular Facilities' link_text = 'Explore All'/>
           <CardGrid />
         </section>
 
-        <DarkSection />
+        <Section1 />
+        <Section2 />
 
         <div className = 'full-vh'></div>
     </div>

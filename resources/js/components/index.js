@@ -16,4 +16,5 @@ export {default as LineHeading}      from './LineHeading';
 export {default as LinkHeading}      from './LinkHeading';
 export {default as Card}             from './Card';
 export {default as CardGrid}         from './CardGrid';
-export {default as DarkSection}      from './DarkSection';
+export {default as Section1}         from './Section1';
+export {default as Section2}         from './Section2';
