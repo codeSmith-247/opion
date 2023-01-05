@@ -7,8 +7,8 @@ body {
 
     --primary: #1B2C2F;
     --secondary: #205979;
-    --cool: #3A9FC2;
-    --light-cool: #3A9FC2;
+    --cool: #2550d1;
+    --light-cool: #537eff;
     --pale: #C8DFE4;
 
     --white: #ffffff;
@@ -16,6 +16,7 @@ body {
 
     --fade-shadow: #22222214;
     --shadow: #22222245;
+    --light-shadow: #57575713;
     --overlay: linear-gradient(90deg, var(--white), #ffffff54);
 
     --radius: 2px;
@@ -75,6 +76,10 @@ body {
 
 .flex-between {
     justify-content: space-between;
+}
+
+.flex-end {
+    justify-content: flex-end;
 }
 
 .left-center, .p-center {
@@ -137,4 +142,24 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.z-3 {
+    z-index: 3;
+}
+
+.z-4 {
+    z-index: 4;
+}
+
+.z-5 {
+    z-index: 5;
 }

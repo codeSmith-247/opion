@@ -1,0 +1,32 @@
+
+.menu-box .overlay {
+    background: var(--shadow);
+}
+
+.menu-box .menu {
+    background: var(--black);
+    color: var(--white);
+    width: 250px;
+    transition-delay: .25s;
+}
+
+.menu-box .menu .top {
+    background: #11111173;
+    padding: .25rem .75rem;
+    font-size: 110%;
+}
+
+.menu-box .menu .top:hover {
+    background: var(--cool);
+}
+
+.menu-box, .menu-box .overlay, .menu-box .menu {
+    right: -500vw;
+}
+
+.menu-box.active,
+.menu-box.active .overlay,
+.menu-box.active .menu {
+    right: 0;
+}
+

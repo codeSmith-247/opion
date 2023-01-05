@@ -17,6 +17,13 @@ button {
     outline: none;
 
     padding: .5rem 2rem;
+    /* text-align: center; */
+
+}
+
+button, button span {
+    text-align: center;
+
 }
 
 button:hover {
@@ -42,4 +49,8 @@ button:active {
     color: var(--white);
     border: 1px solid var(--primary);
 
+}
+
+button .icon {
+    padding-left: .5rem;
 }

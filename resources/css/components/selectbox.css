@@ -1,0 +1,52 @@
+.select-box {
+    background: var(--white);
+    border-radius: var(--radius);
+    height: 320px;
+    width: 320px;
+    padding: .5rem;
+
+    display: none;
+}
+
+.select-box.active {
+    display: block;
+}
+
+.select-box .box-top {
+    padding-bottom: .35rem;
+}
+
+.select-box.two {
+    top: 50%;
+}
+
+.select-box .input {
+    height: 40px;
+    overflow: hidden;
+    width: calc(100% - 50px);
+    margin-right: 10px;
+}
+
+.select-box .input .icon {
+    display: none;
+}
+
+
+
+.select-box.two .select-item .icon {
+    color: var(--light-cool);
+}
+
+
+.select-box.three .input {
+    width: 100%;
+    margin-right: 0;
+}
+
+.select-box.three button {
+    font-size: 80%;
+    padding: .45rem;
+    width: 100%;
+    justify-content: center;
+    margin-top: .25rem;
+}

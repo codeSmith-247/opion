@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../css/components/searchbox.css';
 
-import { Input, Button } from './';
+import { Input, Iconbutton, SelectMenu } from './';
 
 const SearchBox = () => {
 
@@ -12,20 +12,22 @@ const SearchBox = () => {
   } 
 
   return (
-    <div className = 'search-box max-width'>
-        <div className = 'box'>
+    <>
+      <div className = 'search-box full-w'>
+          <div className = 'box full-w'>
 
-            <h3>Search to your specification</h3>
+              <h3>Search to your specification</h3>
 
-            <div className='inputs flex-row'>
-                <Input type='text' name='location' placeholder='Location' icon = 'bi bi-geo-alt-fill'    className = {selectedInput === 'location' && 'active'} activator={getname}/>
-                <Input type='text' name='type'     placeholder='Type'     icon = 'bi bi-house-fill'      className = {selectedInput === 'type'     && 'active'} activator={getname}/>
-                <Input type='text' name='budget'   placeholder='Budget'   icon = 'bi bi-piggy-bank-fill' className = {selectedInput === 'budget'   && 'active'} activator={getname}/>
-                <Button name='Search' icon='bi bi-search'/>
-            </div>
+              <div className='inputs flex-row'>
+                  <Input type='text' name='location' placeholder='Location' icon = 'bi bi-geo-alt-fill'    className = {selectedInput === 'location' && 'active'} activator={getname}/>
+                  <Iconbutton icon='bi bi-filter-right' onClick = {() => { document.querySelector('.select-menu').classList.add('active') } } />
+                  <Iconbutton icon='bi bi-search'/>
+              </div>
 
-        </div>
-    </div>
+          </div>
+      </div>
+      <SelectMenu />
+    </>
   )
 }
 

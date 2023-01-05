@@ -4,7 +4,7 @@ import { Button, SearchBox } from './';
 
 const Header = () => {
   return (
-    <header className=" overlay-bg full-vh full-w flex-col-center">
+    <header className=" overlay-bg full-w flex-col-center">
         <div className = 'content'>
             <h1>Find Accomodation That Suits You</h1>
             <p>
@@ -16,9 +16,8 @@ const Header = () => {
             <Button name="Get Started"/>
         </div>
 
-        <SearchBox />
     </header>
   )
 }
 
-export default Header
+export default Header;

@@ -1,0 +1,22 @@
+.menu-item {
+    /* border: 1.5px solid #ffffff1f; */
+    border-radius: var(--radius);
+    color: #ffffffd7;
+    cursor: pointer;
+    margin: 1.5rem auto;
+    padding: .5rem .75rem;
+    width: 90%;
+}
+
+.menu-item:hover {
+    background: #a4a4a421;
+    color: var(--white);
+}
+
+.menu-item .item-icon {
+    padding-right: .75rem;
+}
+
+.menu-item .item-text {
+    font-size: 85%;
+}

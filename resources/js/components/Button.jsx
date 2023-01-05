@@ -5,7 +5,7 @@ const Button = ({ type, name, icon }) => {
     <button className = {`flex-row ${type}`}>
         <span>{name?? 'Button'}</span>
         {icon !== '' && 
-          <div className = 'icon'>
+          <div className = 'icon flex-center'>
             <i className = {icon}></i>
           </div>
         }

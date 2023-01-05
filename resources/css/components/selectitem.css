@@ -1,0 +1,28 @@
+
+.select-item {
+    box-shadow: 0px 0px .51px var(--shadow);
+    border: .51px solid var(--light-shadow);
+    cursor: pointer;
+    padding: .5rem .85rem;
+    margin: .5rem 0;
+
+}
+
+.select-item:hover {
+    background: var(--cool);
+    color: var(--white);
+}
+
+.select-item .icon {
+    padding-right: 1rem;
+}
+
+.select-item .item-text {
+    font-size: 90%;
+    font-weight: 400;
+}
+
+.select-item .value {
+    color: var(--light-cool);
+    font-size: 70%;
+}

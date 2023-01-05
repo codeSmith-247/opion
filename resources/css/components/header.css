@@ -1,11 +1,13 @@
 header {
     --url: url('../../../public/images/header.jpg'), var(--overlay);
     padding: var(--side-padding);
+    min-height: 450px;
+    height: 90vh;
 }
 
 header .content {
     width: 500px;
-    margin-top: 7rem;
+    /* margin-top: 3rem; */
 }
 
 header h1 {
@@ -15,4 +17,48 @@ header h1 {
 
 header .content button {
     margin-top: 13px;
+}
+
+@media only screen and (max-width: 650px) {
+    header {
+        --overlay: #ffffffd1;
+        padding: 0;
+    }
+
+    header .content, .navbar {
+        padding: 1rem 2rem;
+    }
+
+    header .content {
+        width: 100%;
+    }
+
+    .search-box button {
+        width: 60px;
+        justify-content: center;
+        height: 40px;
+        padding: 0;
+    }
+
+    .search-box button .icon {
+        padding: 0;
+    }
+
+    header .search-box .input {
+        margin-right: .15rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 440px) {
+    header .content {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    header .content, .navbar, header .search-box .box {
+        padding: 1rem;
+    }
 }

@@ -1,0 +1,21 @@
+.select-menu {
+    display: none;
+}
+
+.select-menu.active {
+    display: block;
+}
+
+.select-menu .overlay{
+    background: var(--shadow);
+    opacity: 0.75;
+}
+
+
+
+/* .select-box.three {
+    height: 150px;
+    box-shadow: 0 0 5px var(--shadow);
+} */
+
+
