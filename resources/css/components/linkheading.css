@@ -1,0 +1,20 @@
+
+.link-heading {
+    padding: 1rem 0;
+}
+
+.link-heading .icon {
+    margin-left: .5rem;
+}
+
+.link-heading h4 {
+    font-size: 130%;
+}
+
+.link-heading span {
+    font-size: 70%;
+}
+
+.link-heading .icon {
+    font-size: 110%;
+}

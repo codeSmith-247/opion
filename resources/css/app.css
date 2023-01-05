@@ -26,6 +26,13 @@ body {
     color: var(--black);
 }
 
+@media only screen and (max-width: 650px) {
+    body {
+        --side-padding: 1rem 2rem;
+    }
+
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -49,6 +56,14 @@ body {
     width: 100%;
 }
 
+.half-h, .half-hw {
+    height: 50%
+}
+
+.half-w, .half-hw {
+    width: 50%;
+}
+
 .obj-fit {
     object-fit: cover;
 }
@@ -58,7 +73,7 @@ body {
     width: var(--size);
 }
 
-.flex, .flex-row, .flex-col, .flex-center, .flex-col-center {
+.flex, .flex-row, .flex-col, .flex-center, .flex-col-center, .flex-end {
     display: flex;
 }
 
@@ -142,6 +157,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+}
+
+.ov-hidden {
+    overflow: hidden;
 }
 
 .z-1 {

@@ -1,0 +1,101 @@
+
+.card {
+    box-shadow: 0 0 20px var(--fade-shadow);
+    border-radius: var(--radius);
+    height: 360px;
+    width: 280px;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px var(--pale);
+}
+
+.card .image {
+    background: var(--light-shadow);
+    height: 68%;
+    width: 100%;
+}
+
+.card:hover .image img {
+    transform: scale(1.05);
+}
+
+.card .info {
+    padding: .75rem;
+}
+
+.card .info .icon {
+    margin-right: .5rem;
+}
+
+.card .info .item-text {
+    font-size: 80%;
+}
+
+.card .name .item-text {
+    font-weight: 500;
+    font-size: 100%;
+}
+
+.card .icon {
+    font-size: 50%;
+}
+
+.card .small {
+    margin-bottom: .35rem;
+}
+
+.card .small .info-item {
+    margin-right: .95rem;
+}
+
+.card .small .item-text {
+    font-size: 65%;
+    padding: .5rem 0;
+}
+
+.card .small .icon {
+    margin-right: .25rem;
+    font-size: 70%;
+}
+
+.card button {
+    padding: .4rem !important;
+    justify-content: center;
+    font-size: 80%;
+    font-weight: 500;
+    width: 65%;
+}
+
+.card button .icon {
+    display: none;
+}
+
+.card .price {
+    width: 35%;
+    font-size: 90%;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 280px);
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+@media only screen and (max-width: 730px) {
+    .card-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-grid > .card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 585px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}

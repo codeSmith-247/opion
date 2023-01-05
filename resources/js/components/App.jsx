@@ -1,7 +1,5 @@
 import React from 'react'
-import {NavBar, Header, MobileMenu, SearchBox} from './';
-
-import '../../css/components/button.css';
+import {NavBar, Header, MobileMenu, SearchBox, LineHeading, LinkHeading, CardGrid, DarkSection} from './';
 
 const App = () => {
   return (
@@ -10,6 +8,15 @@ const App = () => {
         <MobileMenu />
         <Header />
         <SearchBox />
+
+        <section>
+          <LineHeading heading = 'Popular' />
+          <LinkHeading heading = 'Popular' link_text = 'Explore All'/>
+          <CardGrid />
+        </section>
+
+        <DarkSection />
+
         <div className = 'full-vh'></div>
     </div>
   )

@@ -1,0 +1,16 @@
+
+.line-heading .line {
+    background: black;
+    height: 1px;
+    width: 25px;
+    margin-right: .5rem;
+}
+
+.line-heading .heading {
+    font-size: 70%;
+    text-transform: uppercase;
+}
+
+section {
+    padding: var(--side-padding);
+}
