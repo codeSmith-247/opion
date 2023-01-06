@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavBar, Header, MobileMenu, SearchBox, LineHeading, LinkHeading, CardGrid, Section1, Section2} from './';
+import {NavBar, Header, MobileMenu, SearchBox, LineHeading, LinkHeading, CardGrid, Section1, Section2, Footer} from './';
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
         <Section1 />
         <Section2 />
 
-        <div className = 'full-vh'></div>
+        <Footer />
     </div>
   )
 }

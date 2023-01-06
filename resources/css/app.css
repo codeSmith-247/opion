@@ -10,6 +10,7 @@ body {
     --cool: #2550d1;
     --light-cool: #537eff;
     --pale: #C8DFE4;
+    --pale-fade: #c8d6e42e;
 
     --white: #ffffff;
     --black: #222222;
@@ -165,6 +166,10 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.round {
+    border-radius: 50%;
 }
 
 .z-1 {
