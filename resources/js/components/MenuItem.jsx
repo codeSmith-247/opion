@@ -4,16 +4,16 @@ import {Link} from 'react-router-dom';
 
 const MenuItem = ({ name, icon, location}) => {
   return (
-    <Link to={location}>
-      <div className = 'menu-item flex-row'>
+    <div className = 'menu-item flex-row'>
+        <Link to={location} className = 'flex-row'>
           <div className = 'item-icon'>
               <i className = {icon}></i>
           </div>
           <div className = 'item-text'>
               <span>{ name }</span>
           </div>
+        </Link>
       </div>
-    </Link>
   )
 }
 
