@@ -73,15 +73,15 @@ body {
     width: var(--size);
 }
 
-.flex, .flex-row, .flex-col, .flex-center, .flex-col-center, .flex-end {
+.flex, .flex-row, .flex-col, .flex-center, .flex-col-center, .flex-end, a {
     display: flex;
 }
 
-.flex-row, .flex-center {
+.flex-row, .flex-center, a {
     align-items: center;
 }
 
-.flex-center, .flex-col-center {
+.flex-center, .flex-col-center, a {
     justify-content: center;
 }
 
@@ -163,6 +163,10 @@ body {
     overflow: hidden;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .z-1 {
     z-index: 1;
 }
@@ -181,4 +185,10 @@ body {
 
 .z-5 {
     z-index: 5;
+}
+
+a {
+    text-decoration : none;
+    color: inherit;
+    width: max-content;
 }

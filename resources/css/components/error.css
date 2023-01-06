@@ -1,0 +1,16 @@
+.errorpage .image {
+    height: 300px;
+    /* width: 300px; */
+}
+
+.errorpage p {
+    width: 400px;
+    font-size: 80%;
+    margin-top: -1.5rem;
+}
+
+.errorpage button {
+    scale: .9;
+    margin-top: .65rem;
+
+}

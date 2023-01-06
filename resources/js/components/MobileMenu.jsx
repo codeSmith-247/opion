@@ -13,13 +13,13 @@ const MobileMenu = () => {
                 <i className = 'bi bi-x-lg' onClick = {() => { document.querySelector('.menu-box').classList.remove('active') }}></i>
             </div>
 
-            <MenuItem name = "Home"             icon = 'bi bi-house'/>
-            <MenuItem name = "Our Facilities"   icon = 'bi bi-building'/>
-            <MenuItem name = "Custom Booking"   icon = 'bi bi-box'/>
-            <MenuItem name = "Lease"            icon = 'bi bi-door-open'/>
-            <MenuItem name = "Log In"           icon = 'bi bi-box-arrow-in-left'/>
-            <MenuItem name = "Sign Up"          icon = 'bi bi-person-plus'/>
-            <MenuItem name = "Contact Us"       icon = 'bi bi-phone'/>
+            <MenuItem name = "Home"             icon = 'bi bi-house'                  location='/'/>
+            <MenuItem name = "Our Facilities"   icon = 'bi bi-building'               location='/facilities'/>
+            <MenuItem name = "Custom Booking"   icon = 'bi bi-box'                    location='/custom'/>
+            <MenuItem name = "Lease"            icon = 'bi bi-door-open'              location='/lease'/>
+            <MenuItem name = "Log In"           icon = 'bi bi-box-arrow-in-left'      location='/login'/>
+            <MenuItem name = "Sign Up"          icon = 'bi bi-person-plus'            location='/signup'/>
+            <MenuItem name = "Contact Us"       icon = 'bi bi-phone'                  location='/contact'/>
         </div>
     </div>
   )

@@ -28,17 +28,17 @@ const NavBar = () => {
         <div className = 'left flex-row'>
             <Logo />
             <div className = 'flex-row desktop'>
-              <NavLink name='Home'/>
-              <NavLink name='Our Facilities'/>
-              <NavLink name='Custom Booking'/>
-              <NavLink name='Lease'/>
+              <NavLink name='Home'           location='/'/>
+              <NavLink name='Our Facilities' location='facilities'/>
+              <NavLink name='Custom Booking' location='/custom'/>
+              <NavLink name='Lease'          location='lease'/>
 
             </div>
         </div>
         <div className = 'right flex-row desktop'>
-            <NavLink name='Log In' type='inverse'/>
-            <Button name='Sign Up' />
-        </div>
+            <NavLink name='Log In' type='inverse' location='login'/>
+            <Button name='Sign Up'                location='signup'/>
+        </div> 
         <div className = 'menu-btn flex-center mobile size' onClick = {() => { document.querySelector('.menu-box').classList.add('active') } }>
           <i className = 'bi bi-list'></i>
         </div>

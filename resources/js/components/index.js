@@ -18,3 +18,4 @@ export {default as Card}             from './Card';
 export {default as CardGrid}         from './CardGrid';
 export {default as Section1}         from './Section1';
 export {default as Section2}         from './Section2';
+export {default as Error}            from './Error';
