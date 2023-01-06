@@ -14,3 +14,10 @@
     margin-top: .65rem;
 
 }
+
+@media only screen and (max-width: 420px) {
+    .errorpage p {
+        width: 90vw;
+    }
+
+}
