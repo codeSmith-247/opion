@@ -10,7 +10,7 @@ const Section2 = () => {
 
         <div className =  'right full-h p-rel z-2'>
             <LineHeading heading = 'Lease' />
-            <h4>$maximize your bookings</h4>
+            <h4>maximize your bookings</h4>
 
             <p>
                 As a facility owner, you want to make the most of your space and maximize your bookings.
