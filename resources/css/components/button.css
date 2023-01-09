@@ -16,6 +16,7 @@ button {
     border-radius: var(--radius);
     outline: none;
 
+    padding: .5rem 2rem;
     /* text-align: center; */
 
 }
@@ -51,12 +52,4 @@ button:active {
 
 button .icon {
     padding-left: .5rem;
-}
-
-button a {
-    height: 100%;
-    width: 100%;
-
-    padding: .5rem 2rem;
-
 }

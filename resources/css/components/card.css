@@ -61,14 +61,11 @@
 }
 
 .card button {
+    padding: .4rem !important;
     justify-content: center;
     font-size: 80%;
     font-weight: 500;
     width: 65%;
-}
-
-.card button a {
-    padding: .4rem !important;
 }
 
 .card button .icon {

@@ -10,7 +10,7 @@ body {
     --cool: #2550d1;
     --light-cool: #537eff;
     --pale: #C8DFE4;
-    --pale-fade: #c8d6e42e;
+    --pale-fade: #c8dfe41e;
 
     --white: #ffffff;
     --black: #222222;
@@ -167,12 +167,12 @@ body {
     overflow: hidden;
 }
 
-.text-center {
-    text-align: center;
-}
-
 .round {
     border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .z-1 {
