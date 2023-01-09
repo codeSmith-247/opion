@@ -10,6 +10,8 @@
     width: 500px;
     height: 400px;
     box-shadow: -20px -20px 0 var(--fade-shadow);
+    border-radius: var(--radius);
+    overflow:hidden;
 }
 
 .section2 .image-box {
@@ -17,7 +19,7 @@
 }
 
 section.section1 .right {
-    background: var(--white);
+    background: var(--black);
     padding: 2rem;
     width: 650px;
 }

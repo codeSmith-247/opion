@@ -1,7 +1,8 @@
-
+/* 
 .input {
     border: 1px solid var(--shadow);
     border-radius: var(--radius);
+    overflow: hidden;
 }
 
 input {
@@ -9,11 +10,11 @@ input {
     outline: none;
     padding: .65rem;
     font-family: inherit;
-    /* font-size: inherit; */
+    font-size: inherit;
     width: calc(100% - 40px);
 }
 
 .input .icon {
     --size: 40px;
     cursor: pointer;
-}
+} */

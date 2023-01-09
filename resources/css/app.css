@@ -14,17 +14,20 @@ body {
 
     --white: #ffffff;
     --black: #222222;
+    --body: #111111;
 
     --fade-shadow: #22222214;
     --shadow: #22222245;
     --light-shadow: #57575713;
     --overlay: linear-gradient(90deg, var(--white), #ffffff54);
 
-    --radius: 2px;
+    --radius: 2.5px;
     --side-padding: 1.5rem 4rem;
 
     font-family: 'Poppins', sans-serif;
     color: var(--black);
+    background: var(--body);
+    color: var(--white);
 }
 
 @media only screen and (max-width: 650px) {

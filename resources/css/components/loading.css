@@ -1,0 +1,51 @@
+
+.loading {
+    background: var(--white);
+}
+
+.loading .animator {
+    background: var(--pale-fade);
+    border-radius: 10px;
+    height: 4px;
+    width: 100px;
+}
+
+.loading .animator .bar {
+    animation: loading 3s infinite linear;
+    background: var(--cool);
+    border-radius: inherit;
+    height: 100%;
+    width: 0;
+    left: 0;
+}
+
+.loading .image {
+    height: 50px;
+    width: 200px;
+    margin: .05rem 0;
+    transform: scale(.59);
+    margin-left: -.1rem;
+}
+
+@keyframes loading {
+    0%, 100% {
+        width: 0;
+        left: 0;
+
+    }
+
+    25%, 75% {
+        width: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    50% {
+        width: 0;
+        left: 100%;
+    }
+
+
+
+    
+}

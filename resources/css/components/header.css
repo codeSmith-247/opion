@@ -1,64 +1,111 @@
+
+
 header {
-    --url: url('../../../public/images/header.jpg'), var(--overlay);
-    padding: var(--side-padding);
-    min-height: 450px;
-    height: 90vh;
+    /* --url: url('../../../public/images/header.jpg'), rgba(0, 0, 0, 0.905); */
+    --url: url('../../../public/images/header.jpg'), rgba(0, 0, 0, 0.905);
+    background-attachment: fixed;
+    padding: 0;
+    color: var(--white);
+
+    min-height: 500px;
+    height: 100vh;
 }
 
+header .grid-patterns {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 10vw);
+    opacity: 0.05
+}
+
+header .grid {
+    border-right: 1px solid var(--white);
+}
+
+header .grid:last-of-type {
+    border: none;
+}
+
+
 header .content {
-    width: 500px;
-    /* margin-top: 3rem; */
+    padding: var(--side-padding);
+    width: 800px;
 }
 
 header h1 {
-    font-size: 300%;
-    line-height: 1.2;
+    font-size: 400%;
+    font-weight: 500;
+    word-spacing: 5px;
+    line-height: 1;
 }
 
-header .content button {
-    margin-top: 13px;
+header h1 span {
+    color: var(--light-cool);
 }
 
-@media only screen and (max-width: 650px) {
-    header {
-        --overlay: #ffffffd1;
-        padding: 0;
-    }
+header .content p {
+    /* width: 70%; */
+    padding: .75rem 0;
+    word-spacing: 2.5px;
+    font-weight: 300;
+}
 
-    header .content, .navbar {
-        padding: 1rem 2rem;
-    }
 
+.search-box {
+    /* padding: var(--side-padding); */
+    margin-top: .5rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    /* margin-top: calc(70px / -2); */
+}
+
+.search-box input {
+    background: transparent;
+    color: var(--white);
+    font-size: 130%;
+    font-weight: 300;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    width: calc(100% - 70px);
+}
+
+.search-box .box {
+    background: var(--black);
+    height: 70px;
+
+}
+
+.search-box .icon-button button, .search-box .icon-button {
+    height: 100%;
+    width: 70px;
+    font-size: 120%;
+}
+
+@media only screen and (max-width: 800px) {
     header .content {
         width: 100%;
     }
-
-    .search-box button {
-        width: 60px;
-        justify-content: center;
-        height: 40px;
-        padding: 0;
-    }
-
-    .search-box button .icon {
-        padding: 0;
-    }
-
-    header .search-box .input {
-        margin-right: .15rem;
-    }
-
-
 }
 
-@media only screen and (max-width: 440px) {
+
+@media only screen and (max-width: 535px) {
     header .content {
         font-size: 80%;
     }
+
+    .search-box .box {
+        height: 50px
+    }
 }
 
-@media only screen and (max-width: 350px) {
-    header .content, .navbar, header .search-box .box {
-        padding: 1rem;
+@media only screen and (max-width: 435px) {
+    header h1 {
+        font-size: 300%;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    header h1 {
+        font-size: 280%;
     }
 }

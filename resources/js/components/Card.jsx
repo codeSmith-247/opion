@@ -38,7 +38,7 @@ const Card = ({name, location, duration, amount, image}) => {
             </div>
 
             <div className = 'flex-row'>
-                <Button name = 'Book Now' />
+                <Button name = 'Book Now' location='/booking'/>
                 <div className =  'price flex-center'>
                     <span>Ghc</span>
                     <span>{amount}</span>

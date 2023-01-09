@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavBar, Header, MobileMenu, SearchBox, LineHeading, LinkHeading, CardGrid, Section1, Section2, Footer} from './';
+import {NavBar, Header, MobileMenu, SearchBox, LineHeading, LinkHeading, CardGrid, Section1, Section2, Footer} from '../components';
 
 const App = () => {
   return (
@@ -7,7 +7,6 @@ const App = () => {
         <NavBar />
         <MobileMenu />
         <Header />
-        <SearchBox />
 
         <section>
           <LineHeading heading = 'Popular' />

@@ -16,9 +16,10 @@ footer .right, footer .left {
 }
 
 footer .right {
-    background: var(--white);
+    background: var(--black);
     border-radius: var(--radius);
     padding: 2rem;
+    /* color: var(--white); */
     /* width: 700px; */
     /* height: 500px; */
 }
@@ -85,6 +86,7 @@ footer input, footer textarea {
     background: var(--pale-fade);
     border-radius: var(--radius);
     border: none;
+    color: inherit;
     outline: none;
     width: 100%;
     font-size: 110%;

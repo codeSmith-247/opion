@@ -1,0 +1,16 @@
+.facilities .search-box {
+    margin: 0;
+}
+
+.facilities .navbar {
+    position: sticky;
+}
+
+.facilities footer .left-right,
+.facilities footer .footer-links {
+    display: none;
+}
+
+.facilities footer .copyright {
+    padding: 2rem;
+}

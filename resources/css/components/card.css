@@ -1,5 +1,6 @@
 
 .card {
+    background: var(--black);
     box-shadow: 0 0 20px var(--fade-shadow);
     border-radius: var(--radius);
     height: 360px;
@@ -7,7 +8,7 @@
 }
 
 .card:hover {
-    box-shadow: 0 0 10px var(--pale);
+    box-shadow: 0 0 10px #111;
 }
 
 .card .image {
