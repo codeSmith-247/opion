@@ -6,7 +6,7 @@ const Error = () => {
   return (
     <div className='errorpage flex-center flex-col full-vhw'>
         <div className = 'image'>
-            <img src = '/images/error.jpg' className = 'obj-fit' />
+            <img src = '/images/Err.png' className = 'obj-fit' />
         </div>
 
         <div class = 'text-center flex-col flex-center'>
@@ -17,4 +17,4 @@ const Error = () => {
   )
 }
 
-export default Error
+export default Error;

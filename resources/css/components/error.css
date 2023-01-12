@@ -1,6 +1,7 @@
 .errorpage .image {
+
     height: 300px;
-    /* width: 300px; */
+    width: 300px;
 }
 
 .errorpage p {
